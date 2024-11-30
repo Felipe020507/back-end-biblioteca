@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "livros") // Garante que a entidade está vinculada à tabela correta
+@Table(name = "livros") 
 public class Livro {
 
     @Id
